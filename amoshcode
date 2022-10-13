@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Website design</title>
+
+    <style>
+        body{
+            font-family: 'Alkalami', serif;
+            background-color: white;
+        }
+
+        .header{
+            background-color: rgb(255, 255, 255);
+            height: 100px;
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0 0 1px black;
+        }
+
+        .logobox{
+            width: 200px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logoname{
+            font-size: 5rem;
+            margin:0;
+            display: inline-block;
+            margin-left: 60px;
+        }
+
+        .logoimagebox{
+            width: 200px;
+            height: 90px;
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+
+        .logoimage{
+            height: 90%;
+            width: 90%;
+            object-fit: fill;
+            padding-top: 5pbottomx;
+            padding: 5px;
+        }
+
+        .middle-section{
+            width: 750px;
+            height: 90px;
+            margin-top: 5px;
+            display: grid;
+            grid-template-columns: 310px 300px;
+        }
+
+        .searchbarbox{
+            height: 45px;
+            width: 745px;
+            padding-top: 10px;
+            padding-left: 0;
+            border-bottom: 1px solid black;
+            display: inline-block;
+        }
+
+        .searchbar{
+            width: 300px;
+            height: 30px;
+        }
+
+        .socialmediabox{
+            display: inline-block;
+            width: 200px;
+            height: 40px;
+            margin-left: 235px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .socialmediaimages{
+            width: 50px;
+            height: 40px;
+            object-fit: fill;
+        }
+
+        #twitter{
+            width: 50px;
+            height: 35px;
+        }
+
+        #facebooklogo{
+            width: 50px;
+            height: 30px;
+            padding-top: 2px;
+        }
+        .navmenusbox{
+            width: 750px;
+            height: 34px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .navmenus{
+            font-size: 1.1rem;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+        }
+
+        .navmenus:hover{
+            cursor: pointer;
+        }
+
+        .threebarbox{
+            background-color: brown;
+            width: 100px;
+            margin: 10px;
+        }
+
+        .threebars{
+            background-color: black;
+            margin: 1px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logobox">
+            <p class="logoname">
+                MUSIC
+            </p>
+           </div>
+
+           <div class="logoimagebox">
+            <img src="pic\musiclogo.jpg" alt="sorry" class="logoimage">
+           </div>
+
+           <div class="middle-section">
+            <div class="searchbarbox">
+                <input type="text" placeholder="Search Music" class="searchbar">
+            </div>
+
+            <div class="socialmediabox">
+                <img src="pic\unnamed (1).jpg" alt="sorry" class="socialmediaimages" id="facebooklogo">
+                <img src="pic\twitter.jpg" alt="sorry" class="socialmediaimages">
+                <img src="pic\1534043160twitter-logo-png-black.png" alt="sorry" class="socialmediaimages" id="twitter">
+            </div>
+
+            <div class="navmenusbox">
+                <p class="navmenus">New release</p>
+                <p class="navmenus">Articles</p>
+                <p class="navmenus">Discover</p>
+                <p class="navmenus">Recmmendations</p>
+                <p class="navmenus">My Profile</p>
+            </div>
+           </div>
+
+           <div class="threebarbox">
+            <div class="threebars">ㅤ</div>
+            <div class="threebars">ㅤ</div>
+            <div class="threebars">ㅤ</div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
